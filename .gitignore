@@ -22,7 +22,7 @@ wandb/
 dvclive/
 
 # Datasets (usually huge)
-datasets/
+#datasets/
 data/
 *.zip
 *.tar
@@ -32,3 +32,8 @@ data/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Ignore dataset contents, but keep DVC metafiles
+datasets/**
+!datasets/**/*.dvc
+!datasets/**/.gitignore

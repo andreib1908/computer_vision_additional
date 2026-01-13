@@ -1,0 +1,6 @@
+outs:
+- md5: 841076da359e8314d091ff588336362a.dir
+  size: 85480662
+  nfiles: 5131
+  hash: md5
+  path: rocks-good
