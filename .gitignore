@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+venv312/
+env/
+yolo/          # if your venv folder is literally named 'yolo'
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+
+
+# Ultralytics / training outputs
+runs/
+wandb/
+dvclive/
+
+# Datasets (usually huge)
+datasets/
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# OS / IDE
+.vscode/
+.DS_Store
+Thumbs.db
