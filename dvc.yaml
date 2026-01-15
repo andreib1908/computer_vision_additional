@@ -1,8 +1,15 @@
 params:
-- dvclive/params.yaml
+  - dvclive/params.yaml
 metrics:
-- dvclive/metrics.json
+  - dvclive/metrics.json
 plots:
-- dvclive/plots/metrics:
-    x: step
-- dvclive/plots/images
+  - runs/detect/train/results.csv:
+      x: epoch
+      y:
+        - metrics/mAP50(B)
+        - metrics/mAP50-95(B)
+        - metrics/precision(B)
+        - metrics/recall(B)
+        - train/box_loss
+        - train/cls_loss
+        - train/dfl_loss
