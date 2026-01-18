@@ -8,10 +8,10 @@ def main():
     if torch.cuda.is_available():
         print("GPU:", torch.cuda.get_device_name(0))
 
-    model = YOLO("runs/detect/train102/weights/best.pt")
+    model = YOLO("runs/detect/tune_rocks2/weights/best.pt")
 
     metrics = model.val(
-        data="coco8.yaml",  # be explicit; don't rely on "remembered" settings
+        data="datasets/rocks-4/data.yaml",  # be explicit; don't rely on "remembered" settings
         device=0,
         workers=0,  # IMPORTANT on Windows
         batch=8,  # optional; keep small if VRAM is tight

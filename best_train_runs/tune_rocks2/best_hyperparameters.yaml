@@ -1,0 +1,20 @@
+# 34/50 iterations complete ✅ (61658.96s)
+# Results saved to C:\Users\badea\OneDrive\Documents\Coding Projects\PyTorch ML\runs\detect\tune_rocks2
+# Best fitness=0.84482 observed at iteration 6
+# Best fitness metrics are {'metrics/precision(B)': 0.97753, 'metrics/recall(B)': 0.9875, 'metrics/mAP50(B)': 0.99113, 'metrics/mAP50-95(B)': 0.84482, 'val/box_loss': 0.61298, 'val/cls_loss': 0.47223, 'val/dfl_loss': 1.22058, 'fitness': 0.84482}
+# Best fitness model is C:\Users\badea\OneDrive\Documents\Coding Projects\PyTorch ML\runs\detect\train114
+lr0: 0.00863
+momentum: 0.94407
+weight_decay: 0.00046
+degrees: 0.0
+translate: 0.0991
+scale: 0.7
+shear: 0.0
+perspective: 0.0
+hsv_h: 0.02571
+hsv_s: 0.46341
+hsv_v: 0.34902
+mosaic: 0.99783
+mixup: 0.0
+fliplr: 0.49919
+flipud: 0.0
